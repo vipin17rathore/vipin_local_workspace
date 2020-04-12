@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="JS/angular.js"></script>
+<script src="JS/Scripts.js"></script>
+<body ng-app="myModRepeat" > 
+	<div ng-controller="myControllerRepeat">
+		<table>
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>City</th>
+				</tr>	
+			</thead>
+	
+			<tbody> 
+				<tr ng-repeat="abs in employees">
+					<td>{{ abs.firstName | uppercase}}</td>
+					<td>{{ abs.lastName }}</td>
+					<td>{{ abs.age }}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

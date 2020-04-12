@@ -1,0 +1,13 @@
+package java8;
+
+interface phone{
+	
+}
+public class Method_InInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

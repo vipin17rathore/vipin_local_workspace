@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="JS/angular.js"></script>
+<script src="JS/Scripts.js"></script>
+</head>
+<body>
+<!-- <div>
+10+20 = {{ 10 + 20 }}
+</div> -->
+<div ng-app="myMod1" ng-controller="myController1">
+<div>
+FirstName={{ employee.FirstName }}
+</div>
+
+<div>
+LastName={{ employee.LastName }}
+</div>
+
+<div>
+<img src="{{ employee.Flag}}" style="height:100px;width:100px"/>
+</div>
+</div>
+</body>
+</html>

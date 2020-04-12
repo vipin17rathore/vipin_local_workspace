@@ -1,0 +1,17 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Fibonacci_Series {
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int a=0; int b=1; int c=1;
+		System.out.println("1 1");
+		while(a<=50){
+			a = b+c;
+			System.out.println(a);
+			b=c;
+			c=a;
+		}
+	}
+}

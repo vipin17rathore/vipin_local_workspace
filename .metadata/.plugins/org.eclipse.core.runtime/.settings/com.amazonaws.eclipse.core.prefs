@@ -1,0 +1,11 @@
+26103111-49e8-4a0f-bcc4-432d24cc353c\:credentialProfileName=default
+alwaysReloadWhenCredentialProfileFileModified=true
+cognitoIdentityId=us-east-1\:450e37e4-6612-4af5-abcf-b61c765c5643
+cognitoIdentityPoolId=us-east-1\:d4fdc07f-94fd-4cc6-94fb-f903657f05c1
+credentialProfileAccountIds=d39bb0fc-ae11-450f-9de8-efb0da0f93f9
+currentAccount=d39bb0fc-ae11-450f-9de8-efb0da0f93f9
+currentDefaultAccount=e43cba24-baa8-49e5-8bf0-1ab13e1a9c05
+d39bb0fc-ae11-450f-9de8-efb0da0f93f9\:credentialProfileName=default
+e43cba24-baa8-49e5-8bf0-1ab13e1a9c05\:credentialProfileName=Vipin_Aws
+ec2PreferencesImported=true
+eclipse.preferences.version=1

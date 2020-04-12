@@ -1,0 +1,6 @@
+package object;
+
+public class Student_inheritance {
+	
+	private student_subject;
+}

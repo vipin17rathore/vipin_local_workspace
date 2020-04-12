@@ -1,0 +1,25 @@
+package com.stu;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class MainMethod {
+
+	public static void main(String[] args) {
+		
+		Student st = new Student();
+		st.setRollNO(100);
+		st.setName("vipin");
+		st.setSection("mech");
+		
+		Configuration con = new Configuration().configure().addAnnotatedClass(Student.class);
+		SessionFactory sf = con.buildSessionFactory();
+		Session session = sf.openSession();
+		Transaction tr = session.beginTransaction();
+		session.save(st);
+		tr.commit();
+	}
+
+}

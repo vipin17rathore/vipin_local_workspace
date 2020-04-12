@@ -1,0 +1,14 @@
+package practice;
+
+public class Fibonacci_Series {
+	public static void main(String args[]){
+		int a=0; int b=1; int c=1;
+		System.out.println("1 1");
+		while(a<=50){
+			a = b+c;
+			System.out.println(a);
+			b=c;
+			c=a;
+		}
+	}
+}

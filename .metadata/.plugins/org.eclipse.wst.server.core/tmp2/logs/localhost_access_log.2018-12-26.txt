@@ -1,0 +1,12 @@
+127.0.0.1 - - [26/Dec/2018:15:33:47 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:15:33:52 +0530] "GET /Spring-Hibernate-Udemy/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:15:33:58 +0530] "GET /Spring-Hibernate-Udemy/customer/list HTTP/1.1" 500 21414
+127.0.0.1 - - [26/Dec/2018:15:59:06 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:15:59:08 +0530] "GET /Spring-Hibernate-Udemy/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:15:59:25 +0530] "GET /Spring-Hibernate-Udemy/customer/list HTTP/1.1" 500 21414
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:16:04:15 +0530] "GET /Spring-Hibernate-Udemy/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:16:05:29 +0530] "GET /Spring-Hibernate-Udemy/customer/list HTTP/1.1" 500 21414
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:16:05:41 +0530] "GET /Spring-Hibernate-Udemy/customer/list HTTP/1.1" 500 21414
+127.0.0.1 - - [26/Dec/2018:16:19:27 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:16:20:05 +0530] "GET /Spring-Hibernate-Udemy/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:16:20:16 +0530] "GET /Spring-Hibernate-Udemy/customer/list HTTP/1.1" 500 9824

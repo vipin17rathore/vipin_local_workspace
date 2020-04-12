@@ -1,0 +1,13 @@
+package practice;
+
+public class Fibonacci_Series {
+	public static void main(String args[]){
+		//0,1,1,2,3,5,8
+		// between 20
+		int k = 0;
+		for (int i=0;i<=20;i++){
+			int val = 0+i;
+			int valres = i+val;
+		}
+	}
+}

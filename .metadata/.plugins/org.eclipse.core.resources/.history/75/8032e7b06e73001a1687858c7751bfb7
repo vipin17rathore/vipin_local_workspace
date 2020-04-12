@@ -1,0 +1,15 @@
+package java8_new;
+
+public class TestClass implements Default_Method{
+
+	@Override
+	public void show() {
+		System.out.println("show method");
+	}
+	
+	@Override
+	public void run() {
+			System.out.println("inside test run");
+	}
+
+}

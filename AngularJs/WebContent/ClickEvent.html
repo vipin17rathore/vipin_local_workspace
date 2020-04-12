@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="JS/angular.js"></script>
+<script src="JS/Scripts.js"></script>
+<link href="JS/Styles.css" rel="stylesheet" />
+</head>
+<body>
+	<div ng-app="moduleClickEvent" ng-controller="controllerClickEvent">
+		<table>
+			<thead>
+				<th>Name</th>
+				<th>Likes</th>
+				<th>Dislikes</th>
+				<th>Like/DisLikes</th>
+			</thead>
+			<tbody>
+				<tr ng-repeat="lan in language">
+					<td>{{ lan.name }}</td>
+					<td>{{ lan.likes }}</td>
+					<td>{{ lan.dislikes }}</td>
+					<td><input type="button" value="Like"
+						ng-click="incrementLikes(lan)" /> <input type="button"
+						value="Dislike" ng-click="incrementDislikes(lan)" /></td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+package com.tcs;
+
+import java.util.ArrayList;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class StudentController {
+	
+	@ResponseBody
+	@RequestMapping(value="/students",method=RequestMethod.GET)
+	public ArrayList<Student>students(){
+		System.out.println("inside students ");
+		Student s1 = new Student();
+		s1.setStudentName("Rahul");
+		
+		Student s2 = new Student();
+		s2.setStudentName("Abhisehk");
+		
+		Student s3 = new Student();
+		s3.setStudentName("Sahil");
+		
+		ArrayList<Student>stList = new ArrayList<>();
+		stList.add(s1);
+		stList.add(s2);
+		stList.add(s3);
+		
+		return stList;
+		
+	}
+
+	@RequestMapping(value="/students",method=RequestMethod.GET)
+	public ArrayList<Student>students(){
+		System.out.println("inside students ");
+		Student s1 = new Student();
+		s1.setStudentName("Rahul");
+		
+		Student s2 = new Student();
+		s2.setStudentName("Abhisehk");
+		
+		Student s3 = new Student();
+		s3.setStudentName("Sahil");
+		
+		ArrayList<Student>stList = new ArrayList<>();
+		stList.add(s1);
+		stList.add(s2);
+		stList.add(s3);
+		
+		return stList;
+		
+	}
+
+
+}

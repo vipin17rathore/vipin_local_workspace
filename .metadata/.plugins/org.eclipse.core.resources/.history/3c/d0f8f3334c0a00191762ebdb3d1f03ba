@@ -1,0 +1,15 @@
+package test;
+
+public class Main extends Abstract1 {
+
+	public static void main(String[] args) {
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

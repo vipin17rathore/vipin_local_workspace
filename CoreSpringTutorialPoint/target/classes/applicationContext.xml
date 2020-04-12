@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+         
+   <bean id="studentbean" class="spring.test.Student">
+   	<property name="studentName" value="Vipin Rathore"></property>
+   </bean> 
+   
+   <bean id="e1" class="spring.test.Address">
+     <constructor-arg value="mata chowck"></constructor-arg>
+     <constructor-arg value="5678483"></constructor-arg>
+   </bean>
+   
+   <bean id="l1" class="spring.test.Address">
+     <constructor-arg value="mata chowck"></constructor-arg>
+     <constructor-arg value="5678483"></constructor-arg>
+   </bean>
+   
+   <bean id="e" class="spring.test.Employee">
+     <constructor-arg value="10" type="int"></constructor-arg>
+     <constructor-arg value="vipin"></constructor-arg>
+     <constructor-arg>
+     <ref bean="e1"/>
+     </constructor-arg>
+     <constructor-arg>
+     <list>
+     <value>Java T point</value>
+     <value>Java concept of the day</value>
+     <value>Java brains</value>
+     </list>
+     </constructor-arg>
+     <constructor-arg>
+     <map>
+     <entry key="100" value="rohan"></entry>
+     <entry key="200" value="mohan"></entry>
+     <entry key="300" value="sohan"></entry>
+     </map>
+     </constructor-arg>
+   </bean>     
+   
+   <bean id="t1" class="spring.test.Teacher">
+     <property name="name"><value>Vipin</value></property>
+     <property name="id"><value>10000</value></property>
+   </bean>
+   
+   <bean id="myFortune" class="spring.test.HappyFortuneService" scope="prototype" init-method="intiMethod" 
+             destroy-method="destroyMethod">
+   </bean>
+   
+   <bean id="myCoach" class="spring.test.Cricket" destroy-method="destroyMethod">
+   	<constructor-arg ref="myFortune"></constructor-arg>
+   </bean>
+   </beans>

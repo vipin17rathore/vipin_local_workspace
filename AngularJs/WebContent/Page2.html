@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="JS/angular.js"></script>
+<script src="JS/Scripts.js"></script>
+<body>
+	<div ng-app="myMod3" ng-controller="myController3">
+		<table>
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" ng-model="employee.firstName" /></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" ng-model="employee.lastName" /></td>
+			</tr>
+			<tr>
+				<td>Age</td>
+				<td><input type="text" ng-model="employee.age" /></td>
+			</tr>
+		</table>
+		<br></br>
+		<table>
+			<tr>
+				<td>First Name</td>
+				<td>{{ employee.firstName }}</td>
+			</tr>
+			<tr>
+				<td>First Name</td>
+				<td>{{ employee.lastName }}</td>
+			</tr>
+			<tr>
+				<td>First Name</td>
+				<td>{{ employee.age }}</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

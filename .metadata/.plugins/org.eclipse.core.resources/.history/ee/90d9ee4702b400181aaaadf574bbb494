@@ -1,0 +1,63 @@
+package collection;
+import java.util.ArrayList;
+
+
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+		ArrayList<String> ar = new ArrayList<String>();
+		ar.add("viin");
+		ar.add("rahul");
+		ar.add("abhi");
+		ar.remove(2);
+		
+		/*for (int i=0;i<ar.size();i++){
+			System.out.println("ar"+ar);
+		}*/
+		
+		for(String ar1 : ar){
+			System.out.println("Name::"+ar1);
+		}
+		
+		ArrayList arL = new ArrayList();
+		arL.add("vipim");
+		arL.add(432);
+		
+		for (Object L :arL){
+			System.out.println("arL"+L);
+		}
+		
+		ArrayList<employee>arE = new ArrayList<employee>();
+		arE.add(new employee("vvv",10));
+	
+		for (employee el :arE){
+			System.out.println("al"+el.name);
+		}
+		
+		Student st = new Student("sharma",65);
+		Student st1 = new Student("ram",66);
+		
+		ArrayList<Student>stE = new ArrayList<Student>();
+		stE.add(st);
+		stE.add(st1);
+		
+		for (Student student :stE){
+			System.out.println("al"+student.income);
+		}
+		
+		
+		
+	}
+	
+    static class employee{
+    	String name;
+    	int rollNo;
+    	
+    	employee(String name,int rollNo){
+    		this.name= name;
+    		this.rollNo=rollNo;
+    		
+    	}
+		
+	}
+}

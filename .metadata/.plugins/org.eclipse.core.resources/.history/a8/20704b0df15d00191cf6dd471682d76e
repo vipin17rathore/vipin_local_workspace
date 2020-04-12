@@ -1,0 +1,22 @@
+package programs;
+
+class Parent{
+	
+	void draw () {
+		
+	}
+}
+
+class child extends Parent {
+	void abc() throws Exception{
+		
+	}
+	
+}
+
+public class Sample {
+	public static void main(String args[]) {
+	child c = new child();
+	c.abc();
+	}
+}

@@ -1,0 +1,8 @@
+package object;
+
+public class Main_interface {
+
+	public static void main(String args[]){
+		
+	}
+}

@@ -1,0 +1,15 @@
+package threading;
+
+public class ThreadPractice extends Thread{
+
+	public void run() {
+		System.out.println("Thread is running");
+	}
+}
+
+class ThreadPractice1{
+	public static void main(String args[]) {
+		
+	}
+	
+}

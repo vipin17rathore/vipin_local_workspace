@@ -1,0 +1,30 @@
+package com.study.SpringTest;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.study.dao.Teacher;
+@ResponseBody
+@Controller
+public class RestWebService {
+	@RequestMapping(value="/teacherList" ,method=RequestMethod.GET)
+	public ArrayList<Teacher> getTeacherList(){
+		
+		ArrayList<Teacher>arList = new ArrayList<Teacher>();
+		Teacher th1 = new Teacher();
+		th1.setThName("Vipin");
+		Teacher th2 = new Teacher();
+		th2.setThName("Rahul");
+		Teacher th3 = new Teacher();
+		th3.setThName("Abhishek");
+		
+		arList.add(th1);
+		arList.add(th2);
+		arList.add(th3);	
+		return arList;
+	}
+}

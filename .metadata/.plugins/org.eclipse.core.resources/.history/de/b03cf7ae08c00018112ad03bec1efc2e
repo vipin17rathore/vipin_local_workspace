@@ -1,0 +1,22 @@
+package java8;
+
+interface phone{
+	void message();   //java 1.7
+}
+
+class androidPhone implements phone{
+
+	@Override
+	public void message() {
+		System.out.println("Message-->>");
+	}
+	
+}
+public class Method_InInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

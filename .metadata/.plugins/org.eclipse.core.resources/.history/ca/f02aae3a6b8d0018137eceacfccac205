@@ -1,0 +1,9 @@
+package practice;
+
+public class EnahancedForLoop {
+
+	public static void main(String[] args) {
+		int [] num = new [10];
+	}
+
+}

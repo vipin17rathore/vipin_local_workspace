@@ -1,0 +1,22 @@
+package programs;
+
+public class Prime_No {
+
+	public static void main(String[] args) {
+	
+/*		boolean flag = true;
+		for(int i=0;i<15;i++){
+			for(int j=2;j<i;j++) {
+				
+			}
+
+		}*/
+		
+		String a = "abc"
+		System.out.println(a.hashCode());
+		String b = new String("abc");
+		System.out.println(b.hashCode());
+	}
+	
+	
+}

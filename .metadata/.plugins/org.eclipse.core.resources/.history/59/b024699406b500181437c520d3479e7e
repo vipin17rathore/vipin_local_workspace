@@ -1,0 +1,6 @@
+package object;
+
+public class Abst_Class implements Abstratct1 {
+
+	
+}

@@ -1,0 +1,12 @@
+<%@ page isELIgnored="false"%>
+<html>
+<body>
+
+<h1>hello</h1>
+<%
+String name = "vipin";
+%>
+
+<%=name %>
+</body>
+</html>

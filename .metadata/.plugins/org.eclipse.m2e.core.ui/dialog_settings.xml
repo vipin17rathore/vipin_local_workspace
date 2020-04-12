@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="http://repo1.maven.org/maven2/archetype-catalog.xml" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="http://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\WorkSpace\JavaProject1"/>
+			<item value="E:\WorkSpace\UdemyHibernate\src\main\java\com\tcs\OneToOne\OneToOneMain.java"/>
+			<item value="E:\WorkSpace\UdemyWebProject"/>
+			<item value="E:\WorkSpace\UdemyAnnotation\pom.xml"/>
+			<item value="E:\WorkSpace\UdemyAnnotation\src\main\java\com\UdemyAnnotation\CricketCoach.java"/>
+			<item value="E:\WorkSpace\CoreSpringTutorialPoint\pom.xml"/>
+			<item value="E:\WorkSpace\SpringByNavin"/>
+			<item value="E:\WorkSpace\Maven\src\main\java\com\tcs\Maven\App.java"/>
+			<item value="E:\WorkSpace\Maven"/>
+			<item value="E:\WorkSpace\Maven\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.home.Hibernate_byNavin"/>
+			<item value="Hibernate_byNavin.com.home"/>
+			<item value="com.Spring_Hibernate_Udemy"/>
+			<item value="com.SpringMvcUdemy"/>
+			<item value="com.UdemyWebProject"/>
+		</list>
+		<list key="groupId">
+			<item value="com.home"/>
+			<item value="Hibernate_byNavin"/>
+			<item value="com"/>
+		</list>
+		<list key="artifactId">
+			<item value="Hibernate_byNavin"/>
+			<item value="com.home"/>
+			<item value="Spring-Hibernate-Udemy"/>
+			<item value="SpringMvcUdemy"/>
+			<item value="UdemyWebProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

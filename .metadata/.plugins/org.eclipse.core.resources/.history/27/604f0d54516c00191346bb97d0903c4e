@@ -1,0 +1,18 @@
+package test;
+
+public class ThreadTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+class thread1 implements Runnable{
+
+	@Override
+	public void run() {
+		System.out.println("run method");
+	}
+	
+}

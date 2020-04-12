@@ -1,0 +1,19 @@
+package programs;
+
+public class Sample {
+
+	
+	static void draw(int a,long b) {
+		System.out.println("Object ");
+	}
+	
+	static void draw(int s) {
+		System.out.println("String");
+	}
+	
+	
+	public static void main(String[] args) {
+		draw(null);
+	}
+
+}

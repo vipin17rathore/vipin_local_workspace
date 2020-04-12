@@ -1,0 +1,9 @@
+package practice;
+
+public class Stack_Test {
+
+	public static void main(String[] args) {
+		Stack_Test<String> stack = new Stack_Test<String>();  
+	}
+
+}

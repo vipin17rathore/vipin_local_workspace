@@ -1,0 +1,23 @@
+package main2;
+
+class Generics<T> {
+	
+	T obj;
+	void run(T obj) {
+		this.obj = obj;
+	}
+	
+	T get() {
+		return obj;
+	}
+}
+
+public class Gen1{
+	
+	public static void main(String args[]) {
+		Gen1<Integer>gen = new Gen1<>();
+		gen.run(10);
+		System.out.println(gen.get());
+		
+	}
+}

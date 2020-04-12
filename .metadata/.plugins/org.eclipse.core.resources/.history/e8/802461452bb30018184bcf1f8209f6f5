@@ -1,0 +1,11 @@
+package practice;
+
+abstract public class Abstract_class {
+
+	String name;
+	int sal;
+	
+	void draw(){
+		System.out.println("draw abstarct class");
+	}
+}

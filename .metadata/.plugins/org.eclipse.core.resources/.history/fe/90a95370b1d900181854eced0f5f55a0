@@ -1,0 +1,9 @@
+package practice;
+
+public class Sample_class {
+
+	public static void main(String args[]) {
+		String obj = new String("vipin");
+		System.out.println(obj);
+	}
+}

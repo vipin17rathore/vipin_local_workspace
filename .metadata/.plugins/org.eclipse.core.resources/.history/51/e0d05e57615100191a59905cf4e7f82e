@@ -1,0 +1,17 @@
+package practice_program;
+
+import java.util.HashMap;
+
+public class NoOfWrdUsingHashMap {
+
+	public static void main(String[] args) {
+		String str = "My Name is vipin";
+		String [] ar = str.split(" ");
+		
+		for(int i =0;i<ar.length;i++) {
+			HashMap<String, Sring>hm = new HashMap<>();
+					
+		}
+	}
+
+}

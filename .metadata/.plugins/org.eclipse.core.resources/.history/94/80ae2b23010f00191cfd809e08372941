@@ -1,0 +1,15 @@
+package main2;
+
+import javax.lang.model.element.Element;
+
+class abc{
+	public static <E> void test(E e) {
+		System.out.println(e);
+	}
+}
+
+public class Generics {
+	public static void main(String args[]) {
+		
+	}
+}

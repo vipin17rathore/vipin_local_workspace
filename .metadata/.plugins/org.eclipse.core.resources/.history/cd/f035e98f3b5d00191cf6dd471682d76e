@@ -1,0 +1,20 @@
+package programs;
+
+public class Sample {
+
+	void draw(String s) {
+		
+	}
+	
+	void draw(Object t) {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+	
+		draw();
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;REST/src/main/java/applicationContext.xml_abc&apos; to &apos;applicationContext.xml&apos;" description="Rename resource &apos;applicationContext.xml_abc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/applicationContext.xml_abc" name="applicationContext.xml" stamp="1561050799978" updateReferences="true"/>
+</session>

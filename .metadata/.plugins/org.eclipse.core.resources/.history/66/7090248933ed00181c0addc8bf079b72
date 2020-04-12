@@ -1,0 +1,41 @@
+package threading;
+
+public class ThreadPractice extends Thread{
+
+	public void run() {
+		for (int i=0;i<=5;i++) {
+		try {
+			Thread.sleep(500);
+			System.out.println("Thread is running"+i);
+			System.out.println(Thread.currentThread());
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		}
+		
+	}
+
+
+	public static void main(String args[]) {
+		ThreadPractice t1 = new ThreadPractice();
+		/*ThreadPractice t2 = new ThreadPractice();
+		ThreadPractice t3 = new ThreadPractice();*/
+		
+		System.out.println("before changing"+t1.getName());
+		
+		t1.start();
+		t1.setName("vipin");
+		System.out.println(t1.getName());
+		try {
+			t1.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		t2.start();
+		t3.start();
+		
+	}
+	
+}

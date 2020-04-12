@@ -1,0 +1,10 @@
+package java8_new;
+
+public interface Default_Method {
+
+	void show();
+
+	default void run() {
+		System.out.println("Inside interface");
+	}
+}

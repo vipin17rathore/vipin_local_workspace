@@ -1,0 +1,14 @@
+package main2;
+
+import javax.lang.model.element.Element;
+
+class abc{
+	public static <E> void test(E e) {
+		System.out.println(E);
+	}
+}
+
+public class Generics {
+	abc a = new abc();
+	a.
+}

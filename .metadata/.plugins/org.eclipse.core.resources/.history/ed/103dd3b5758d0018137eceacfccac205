@@ -1,0 +1,16 @@
+package practice;
+
+public class VariableArgument {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}
+
+class data{
+	public void show(int a){
+		System.out.println(a);
+	}
+}

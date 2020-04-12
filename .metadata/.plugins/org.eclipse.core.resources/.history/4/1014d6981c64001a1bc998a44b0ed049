@@ -1,0 +1,12 @@
+package boa;
+
+public class Parent {
+  public void draw() {
+	  System.out.println("Parent");
+  }
+}
+
+class Child {
+
+}
+

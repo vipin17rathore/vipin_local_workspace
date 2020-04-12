@@ -1,0 +1,37 @@
+package collectons;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+import java.util.StringTokenizer;
+
+public class Sample {
+	public static void main(String args[]) {
+		int vip [] = {10,20,30} ;
+		
+		List<int[]>ar = Arrays.asList(vip);
+		System.out.println(ar);
+	//	Iterator itr = ar.iterator();
+	//	while(itr.hasNext()) {
+			for (int i=0;i<=ar.size();i++) {
+		///	ar.remove(i);
+		}
+		//}
+		System.out.println(ar);
+		
+		String abc = "Sachin";
+		abc = abc.substring(0,6);
+		String a = String.valueOf(10);
+		String b = abc.replace("Sa", "VI");
+				System.out.println(b);
+	
+		StringTokenizer st = new StringTokenizer("Java Developer");
+		while(st.hasMoreTokens()) {
+			System.out.println(st.nextToken(","));	
+		}
+		
+	
+	}
+
+}

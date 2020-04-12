@@ -1,0 +1,21 @@
+package test;
+
+public class Main_Interface implements Interface2 {
+
+	public static void main(String[] args) {
+
+	}
+
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void drive() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

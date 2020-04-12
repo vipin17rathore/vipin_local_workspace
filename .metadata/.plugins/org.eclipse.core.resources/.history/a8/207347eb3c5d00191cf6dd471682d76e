@@ -1,0 +1,13 @@
+package programs;
+
+class Parent{
+	
+	void draw a () {
+		
+	}
+}
+
+public class Sample {
+
+
+}

@@ -1,0 +1,14 @@
+package object;
+
+public class Constructor_1 {
+
+	String name;
+	double salary;
+	String gender; 
+	public Constructor_1(String name,double salary,String gender){
+		this.name= name;
+		this.gender=gender;
+		this.salary=salary;
+		System.out.println("innside constructor");
+	}
+}

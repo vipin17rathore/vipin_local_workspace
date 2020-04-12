@@ -1,0 +1,6 @@
+package object;
+
+public class Colleger_Inheritance {
+	
+	String collegeName;
+}

@@ -1,0 +1,30 @@
+package collection;
+import java.util.ArrayList;
+
+
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+		ArrayList<String> ar = new ArrayList<String>();
+		ar.add("viin");
+		ar.add("rahul");
+		ar.add("abhi");
+		ar.remove(2);
+		
+		/*for (int i=0;i<ar.size();i++){
+			System.out.println("ar"+ar);
+		}*/
+		
+		for(String ar1 : ar){
+			System.out.println("Name::"+ar1);
+		}
+		
+		ArrayList arL = new ArrayList();
+		arL.add("vipim");
+		arL.add(432);
+		
+		for (Object L :arL){
+			
+		}
+	}
+}

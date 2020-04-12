@@ -1,0 +1,11 @@
+package main2;
+
+import javax.lang.model.element.Element;
+
+class abc{
+	void test(Element E)
+}
+
+public class Generics {
+
+}

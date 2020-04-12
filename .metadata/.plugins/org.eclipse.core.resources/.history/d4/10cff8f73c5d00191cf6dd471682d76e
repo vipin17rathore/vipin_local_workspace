@@ -1,0 +1,17 @@
+package programs;
+
+class Parent{
+	
+	void draw () {
+		
+	}
+}
+
+class child extends Parent throws Exception{
+	
+	
+}
+public class Sample {
+
+
+}

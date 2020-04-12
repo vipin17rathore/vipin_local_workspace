@@ -1,0 +1,16 @@
+package object;
+
+public class Main_Method {
+
+	public static void main(String[] args) {
+		Constructor_1 cn = new Constructor_1("vipin",1000.90,"M");
+		
+		Student_inheritance st = new Student_inheritance();
+		st.Id="50";
+		st.setRoll_no(100);
+		st.setStudent_subject("Maths");
+		
+		System.out.println("id:"+id+"student subject");
+	}
+
+}

@@ -1,0 +1,18 @@
+package basic_program;
+
+public class Palidrome_No {
+
+	public static void main(String[] args) {
+		//reverse should be same    //525
+		int i = 171;
+	    int n = i;
+	    int b =0;
+	    int a=0;
+		while(n>0) {
+			a = i%10;
+			n =n/10;
+			System.out.println(a+","+n);
+		}
+	}
+
+}

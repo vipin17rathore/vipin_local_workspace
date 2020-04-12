@@ -1,0 +1,26 @@
+package test;
+
+class Main extends Abstract1 {
+
+	public static void main(String[] args) {
+			
+		try {
+			
+		}
+		catch(ArithmeticException|NullPointerException e) {
+			
+		}
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}
+public class abc {
+	
+}

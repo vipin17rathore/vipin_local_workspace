@@ -1,0 +1,5 @@
+package test;
+
+public class Abstract2 extends Abstract1{
+
+}

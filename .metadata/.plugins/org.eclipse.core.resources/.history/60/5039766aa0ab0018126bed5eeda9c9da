@@ -1,0 +1,12 @@
+package com;
+
+public class Increment_decrement_4 {
+
+	public static void main(String args[]){
+		
+		int num1 = 5;
+		// pre increment
+		num1 = ++num1;
+		System.out.println("pre increment: "+num1);
+	}
+}

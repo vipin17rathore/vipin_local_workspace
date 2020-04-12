@@ -1,0 +1,22 @@
+package test;
+
+public class Main {
+
+	public static void main(String[] args) {
+			
+		try {
+			
+		}
+		catch(ArithmeticException|NullPointerException e) {
+			
+		}
+	}
+
+	@Override
+	 void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private class abc{}
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="452" key="DIALOG_X_ORIGIN"/>
+		<item value="247" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="8082" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="print(Student.getRollNO())"/>
+			<item value="8080"/>
+			<item value="hibernate"/>
+			<item value="com"/>
+			<item value="id"/>
+			<item value="class=&quot;customDiv&quot;"/>
+			<item value="8009"/>
+			<item value="8005"/>
+			<item value="8081"/>
+		</list>
+		<list key="replacehistory">
+			<item value="8082"/>
+			<item value="Emid"/>
+			<item value=""/>
+			<item value="8083"/>
+			<item value="8010"/>
+			<item value="8006"/>
+			<item value="8005"/>
+			<item value="8002"/>
+			<item value="8007"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="380" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="266" key="DIALOG_HEIGHT"/>
+		<item value="798" key="DIALOG_X_ORIGIN"/>
+		<item value="230" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

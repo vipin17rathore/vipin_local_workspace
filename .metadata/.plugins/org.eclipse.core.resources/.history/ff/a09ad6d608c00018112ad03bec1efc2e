@@ -1,0 +1,26 @@
+package java8;
+
+interface phone{
+	void message();   //java 1.7
+	default void drawPatern(){
+		System.out.println("drawPatter-->>");
+	}
+}
+
+class androidPhone implements phone{
+
+	@Override
+	public void message() {
+		System.out.println("Message-->>");
+	}
+	
+}
+public class Method_InInterface {
+
+	public static void main(String[] args) {
+		androidPhone nd = new androidPhone();
+		nd.message();
+		
+	}
+
+}

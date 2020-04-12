@@ -1,0 +1,7 @@
+package object;
+
+public class Student_inheritance {
+	
+	private String student_subject;
+	private int roll_no;
+}

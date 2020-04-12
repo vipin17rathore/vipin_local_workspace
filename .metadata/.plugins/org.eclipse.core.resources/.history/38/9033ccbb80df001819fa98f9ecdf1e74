@@ -1,0 +1,46 @@
+package practice;
+
+public class Hello {
+
+	public static void main(String args[]){
+		// use of printf
+		int i=10;
+		int j=10;
+		int k=i+j;
+		
+		System.out.printf("addition of %d and %d is %d",i,j,k);
+		System.out.println("vipin");
+		
+		k = k++;   //Post increment first assign and than increment
+		System.out.println("k is post incremented-->"+k);
+		j = ++k;   //Pre increment first incremented than assign
+		System.out.println("k is pre incremented-->"+j);
+		
+		double temp =11;	//ternary operator
+		
+	    double temp1= temp==10?10:11;
+		System.out.println("temp1-->"+temp1);
+		//shortHand(); //shorthand operator
+		int temp2 = j==10?11:15;
+		System.out.println("temp2 is -->>"+temp2);
+		
+		Object obj1 = new Integer(10);
+		
+		//Hello world without semicolon
+		if(System.out.printf("Hello world")==null){
+			 
+		}
+	}
+	public static void  shortHand(){
+		int i = 0B101;
+		i = i+5;
+		i*= 5;   //shorthand
+		System.out.println("i is: "+i);
+		i+=5;    //shorthand
+		System.out.println("addition of i is:"+i);
+		
+		int j = 0B101;   //binery literal
+		System.out.println("J"+j);
+		Main.main(args);
+	}
+}

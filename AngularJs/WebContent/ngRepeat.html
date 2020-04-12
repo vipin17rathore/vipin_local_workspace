@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="JS/angular.js"></script>
+<script src="JS/Scripts.js"></script>
+</head>
+<body ng-app="myRepeat">
+	<div  ng-controller="myyControllerRepeat2">
+	{{ 10+20 }}
+		<ul>
+			<li ng-repeat="con in employees">{{ con.firstName }}
+			<!-- <ul>
+			<li ng-repeat="connn in country.cities">
+			{{ connn.name }}
+			</li>
+			</ul> -->
+			</li>
+		</ul>
+
+	</div>
+</body>
+</html>

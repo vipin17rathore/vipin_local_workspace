@@ -1,0 +1,6 @@
+package object;
+
+public interface Interface2 {
+
+	public void div(int a ,int b);
+}

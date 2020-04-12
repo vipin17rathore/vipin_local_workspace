@@ -1,0 +1,16 @@
+package threading;
+
+public class ThreadPractice extends Thread{
+
+	public void run() {
+		Thread.sleep(500);
+		System.out.println("Thread is running");
+	}
+
+
+	public static void main(String args[]) {
+		ThreadPractice t1 = new ThreadPractice();
+		t1.start();
+	}
+	
+}

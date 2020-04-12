@@ -1,0 +1,22 @@
+package threading;
+
+public class ThreadPractice extends Thread{
+
+	public void run() {
+		try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("Thread is running");
+	}
+
+
+	public static void main(String args[]) {
+		ThreadPractice t1 = new ThreadPractice();
+		t1.start();
+		
+	}
+	
+}

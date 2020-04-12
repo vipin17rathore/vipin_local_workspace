@@ -1,0 +1,11 @@
+package test;
+
+import java.util.LinkedList;
+
+public class QueueA {
+
+	public static void main(String[] args) {
+		QueueA q = new  LinkedList();
+	}
+
+}
